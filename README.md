@@ -3,9 +3,12 @@
 System overview
 
 The image service was already deployed previously.
-![image](https://github.com/ElenaSeroka/OAuth-JWT-microservices/assets/70527748/928498e7-7a76-4c76-9b8b-158ae0215456)
+
+![image](https://github.com/ElenaSeroka/JWT-microservices-express/assets/70527748/7bc11dd4-f4dc-4bc5-93ff-354fceac313a)
+
+
 Flow chart
-![image](https://github.com/ElenaSeroka/OAuth-JWT-microservices/assets/70527748/3dd49e20-907e-425e-8128-06dc6a99766b)
+![image](https://github.com/ElenaSeroka/JWT-microservices-express/assets/70527748/10534e6b-5ff9-4eae-b3af-d49e686f6f5b)
 
 In this project, a system was created consisting of two services (Auth and Resource) that needed to be developed and one existing service (Image).
 From the consumer's perspective, the API has a single entry point even though it consists of multiple back-end services.
