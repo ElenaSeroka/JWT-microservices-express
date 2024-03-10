@@ -28,13 +28,10 @@ Resource service
 This service handled the resources in the overall application. In this case, this included things like the user's image-URLs, image-descriptions, and image-title. The images were not stored in this service, though. Instead, an external image service was used to store the images.
 
 Image service (existing)
-This service stored all images that the application needed. This service was already deployed, and could be found at:
-https://courselab.lnu.se/xxxxxxxxxx/v1/
+This service stored all images that the application needed. This service was already deployed, and could be found at a seperate URL.
 In its documentation, there was information on how to communicate with the service. Some things to note:
 
 Image data needed to be sent as a Base64-encoded string.
-The service communicated using an Access token. You could find the token in your "Secrets"-project.
-The service had a public interface on which it served the images. Only the image URL was needed to be stored in the resource service.
-The payload sent to the server could not exceed 500kb.
+The service communicated using an Access token. The service had a public interface on which it served the images. Only the image URL was needed to be stored in the resource service. The payload sent to the server could not exceed 500kb.
 
 
